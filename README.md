@@ -6,75 +6,82 @@ If you have any questions, feel free to contact me at valedonnet@gmail.com.
 Thank you for your interest!
 
 
-## Traveling Salesman Problem (TSP)
+![image](https://github.com/user-attachments/assets/66498a37-8015-4199-a89d-25de5761c5d1)
 
-A combinatorial optimization problem that consists of finding the shortest route to visit a list of cities and return to the city of origin.
 
-### Applications
+![image](https://github.com/user-attachments/assets/91e5e391-61d5-4489-9615-58cc6e58ad24)
 
-- Microchip manufacturing.
-- Arranging school bus routes for children in a school district.
-- Meal delivering.
-- Scheduling service calls, etc.
 
----
+![image](https://github.com/user-attachments/assets/c3c79fc2-ec01-46ea-9d11-fcacec8db216)
 
-### Problem
 
-Imagine 4 cities A, B, C, D. All the possible tours are:
+![image](https://github.com/user-attachments/assets/80d741c9-82c3-4668-abd6-513d1547af24)
 
-\[
-\begin{array}{llll}
-A \to B \to C \to D & B \to A \to D \to C & C \to A \to B \to D & D \to A \to B \to C \\
-A \to B \to D \to C & B \to A \to C \to D & C \to A \to D \to B & D \to A \to C \to B \\
-A \to C \to B \to D & B \to C \to A \to D & C \to B \to A \to D & D \to B \to A \to C \\
-A \to C \to D \to B & B \to C \to D \to A & C \to B \to D \to A & D \to B \to C \to A \\
-A \to D \to B \to C & B \to D \to A \to C & C \to D \to A \to B & D \to C \to A \to B \\
-A \to D \to C \to B & B \to D \to C \to A & C \to D \to B \to A & D \to C \to B \to A \\
-\end{array}
-\]
 
-The goal is to find the shortest path among all these possibilities.
+![image](https://github.com/user-attachments/assets/a5104d79-71b8-4320-87fc-07f27a150d03)
 
----
 
-## Genetic Algorithm for TSP
+![image](https://github.com/user-attachments/assets/3edd78c2-67ba-4f7c-8bc8-78c205901cd9)
 
-### Steps:
 
-1. **Initialization**:
-   - Generate an initial population of random paths.
+![image](https://github.com/user-attachments/assets/50dcb333-6b23-49ad-a6e0-505d0fe23806)
 
-2. **Evaluation**:
-   - Use a fitness function to calculate the total distance of each path.
 
-3. **Parent Selection**:
-   - Select pairs of paths based on their fitness (shorter paths are more likely to be chosen).
+![image](https://github.com/user-attachments/assets/199dfbf1-7b8c-4bba-9ffa-f626d88fffab)
 
-4. **Crossover and Mutation**:
-   - Combine paths to create new offspring and introduce random mutations to maintain diversity.
 
-5. **Survivor Selection**:
-   - Replace less fit paths with the new offspring.
+![image](https://github.com/user-attachments/assets/827cd1de-5d67-4621-b0c7-a6c9c1b05819)
 
-6. **Termination**:
-   - Stop the algorithm when a predefined condition is met (e.g., a set number of generations).
 
-### Diagram
+![image](https://github.com/user-attachments/assets/92c182a0-58d1-42ae-8b57-fe80080b25d4)
 
-![Genetic Algorithm Process](step.png)
 
----
+![image](https://github.com/user-attachments/assets/9a207e3b-8c0e-4215-9e37-352429b21464)
 
-### Advantages of Genetic Algorithms
 
-- Effective for complex optimization problems.
-- Does not require gradient information.
-- Can escape local minima.
+![image](https://github.com/user-attachments/assets/bca407ef-0fea-408a-83a4-3131d66c5738)
 
-### Limitations
 
-- May not guarantee the optimal solution.
-- Computationally expensive for large populations or many generations.
+![image](https://github.com/user-attachments/assets/84d42b2c-fee8-4098-ad28-c0589df62417)
+
+
+![image](https://github.com/user-attachments/assets/bdba83d3-d76d-4c65-80cb-3d9a8e1c122b)
+
+
+![image](https://github.com/user-attachments/assets/d71a25d3-387a-4052-8512-ae2b581ab520)
+
+
+![image](https://github.com/user-attachments/assets/2c2abc3d-3b5d-4b29-9618-a3baebfdd46d)
+
+
+![image](https://github.com/user-attachments/assets/5f832425-7f0a-422e-b111-01de2ecc02fe)
+
+
+![image](https://github.com/user-attachments/assets/4858f7ba-3604-4ac9-ab8d-46e7db69ef63)
+
+
+![image](https://github.com/user-attachments/assets/22468c9c-1f87-4634-bb7d-252bfd759142)
+
+
+![image](https://github.com/user-attachments/assets/c062db31-9be0-444c-afd9-3cbecf5c842d)
+
+
+![image](https://github.com/user-attachments/assets/03f74857-dc40-48ee-b23d-bc1e85e67159)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
